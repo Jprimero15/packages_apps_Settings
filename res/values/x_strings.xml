@@ -275,8 +275,8 @@
     <string name="ambient_doze_auto_brightness_summary">Use last screen-on adaptive brightness value for Ambient Display</string>
 
     <!-- Custom Ambient Display Config -->
-    <string name="ambient_display_screen_title">Xtended Ambient Display</string>
-    <string name="ambient_display_screen_summary">Custom Ambient Display Configuration</string>
+    <string name="ambient_display_screen_title">Samsung Ambient Display</string>
+    <string name="ambient_display_screen_summary">Ambient Display Configuration</string>
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Expanded desktop</string>

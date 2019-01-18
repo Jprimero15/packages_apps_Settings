@@ -28,8 +28,8 @@
 	android:summary="@string/ambient_display_screen_summary" >
         <intent
             android:action="com.android.settings.action.EXTRA_SETTINGS"
-            android:targetPackage="com.custom.ambient.display"
-            android:targetClass="com.custom.ambient.display.DozeSettings" />
+            android:targetPackage="org.lineageos.settings.devicesettings"
+            android:targetClass="org.lineageos.settings.devicesettings.TouchscreenGesturePreferenceActivity" />
     </Preference>
 
         <SwitchPreference
@@ -37,12 +37,6 @@
             android:title="@string/doze_always_on_title"
             android:summary="@string/doze_always_on_summary"
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController" />
-
-        <SwitchPreference
-            android:key="ambient_display_notification"
-            android:title="@string/doze_title"
-            android:summary="@string/doze_summary"
-            settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
         <!--Preference
             android:key="ambient_display_double_tap"
